@@ -1,0 +1,169 @@
+/*variebles scss*/
+/*variable colores*/
+/*fin de variables*/
+* {
+  font-style: oblique;
+  text-align: center;
+  text-decoration: none; }
+
+@media only screen and (min-width: 400px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #8d8c8c;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%; }
+  .formacion__cursos__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1; }
+  .formacion__cursos__info div {
+    align-items: center; }
+  p {
+    font-size: 20px; } }
+
+@media only screen and (min-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #8d8c8c;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%; }
+  header {
+    width: 100%;
+    height: 30%; }
+  .info__data div {
+    margin: 0px 5% 0px 5%;
+    width: 40%; }
+  .formacion__cursos__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-grow: 1; }
+  .formacion__cursos__info div {
+    margin: 0px 3% 0px 3%;
+    width: 40%;
+    align-items: center; }
+  footer {
+    display: block;
+    width: 100%; }
+  .bares__main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-grow: 1; }
+  .bares__section__div {
+    margin: 0px 3% 0px 3%;
+    width: 100%;
+    align-items: center;
+    height: 50%; }
+  #bares__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  #bares__main__section {
+    display: grid;
+    grid-template-areas: "portada informacion mapa";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    width: 70%;
+    margin: 0px 15% 0px 15%;
+    padding: 5px; }
+  #portada {
+    grid-area: portada; }
+  #informacion {
+    grid-area: informacion; }
+    #informacion p {
+      font-size: 25px; }
+  #mapa {
+    grid-area: mapa; } }
+
+.index__carousel {
+  width: 90%;
+  height: 60%; }
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+h2 {
+  color: black;
+  font-size: 250%; }
+
+.formacion__section__main {
+  display: block;
+  justify-content: center;
+  margin: 0px 3% 0px 3%; }
+
+section main div {
+  margin: 0px 4% 0px 4%;
+  padding: 0.5%; }
+
+.info__data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.formacion__fotocursos__img {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.info__img {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/*bocto extend*/
+.btn, .btn--hecho {
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+  color: black; }
+
+.btn--hecho {
+  background-color: red;
+  font-size: 30px;
+  color: black; }
+
+.contacto__input {
+  transition: 1s; }
+
+.contacto__input:focus {
+  width: 100%;
+  height: 50px;
+  font-size: 50px; }
+
+.nav-link {
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: red; }
+
+.navbar-brand {
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: red; }
+
+.bares__main__h2 {
+  border: blue solid 5px;
+  background-color: red;
+  width: 80%;
+  margin: 10px 10% 10px 10%; }
+
+img, iframe {
+  border-radius: 5px;
+  box-shadow: 5px 30px 55px rgba(0, 0, 0, 0.5); }
